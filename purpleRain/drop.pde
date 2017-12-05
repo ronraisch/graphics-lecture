@@ -15,6 +15,7 @@ class Drop{
       yspeed=random(1.5,3);
     }
   }
+  
   void show(){
     strokeWeight(z);
     line(x,y,x,y+len);
