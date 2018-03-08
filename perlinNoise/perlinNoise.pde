@@ -32,6 +32,10 @@ void setup(){
 void draw(){
   print(frameRate+"\n");
   //background(255);
+  if(frameCount%22==0){
+    fill(255,15);
+    rect(0,0,width,height);
+  }
   strokeWeight(1);
   stroke(0);
   for (int i=0;i<width/wid+1;i++){
